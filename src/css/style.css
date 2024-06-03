@@ -3,12 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+#menu-nav{
+    list-style: none;
+    display: inline-flex; /*coloca tudio em uma linha unica */
+    padding-right: 40px;
+}
 header{
     width: 100vw;
     height: 100px;
     background: rgba(26, 26, 26, 0.77);
     position: absolute;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #pagina-inicial{
     height: 100vh;
